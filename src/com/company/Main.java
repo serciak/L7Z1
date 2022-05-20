@@ -13,7 +13,7 @@ public class Main {
 
         for(int i = 0; i<clientsAmount; i++) {
             randArrivalTime = randArrivalTime + rand.nextInt(1,2);
-            q.enqueue(new Client(randArrivalTime, rand.nextInt(1,2)));
+            q.enqueue(new Client(randArrivalTime, rand.nextInt(1,15)));
             //zakladamy ze sprawa zawsze zajmuje wiecej niz 0 jednostek czasu
         }
 
